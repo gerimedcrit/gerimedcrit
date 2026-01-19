@@ -55,3 +55,36 @@ footer {
     color: white;
 }
 
+/* Medication list styling */
+.medication-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.medication-card {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.medication-card h4 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.medication-card p {
+    margin-bottom: 0.5rem;
+}
+
+.medication-card a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.medication-card a:hover {
+    text-decoration: underline;
+}
