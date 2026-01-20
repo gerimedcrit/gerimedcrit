@@ -1,0 +1,70 @@
+{
+  "title": {
+    "text": {
+      "headline": "Midodrine Evidence Timeline",
+      "text": "<p>Clinical trial evidence and key milestones</p>"
+    }
+  },
+  "events": [
+    {
+      "start_date": {
+        "year": "2015",
+        "month": "3",
+        "day": "15"
+      },
+      "text": {
+        "headline": "Efficacy and Safety of Midodrine in Patients with Orthostatic Hypotension",
+        "text": "<p>Phase 3 randomized controlled trial demonstrating efficacy of midodrine for orthostatic hypotension symptoms.</p><p><a href='../studies/study_1.html'>View full details \u2192</a></p>"
+      },
+      "group": "RCT"
+    },
+    {
+      "start_date": {
+        "year": "2017",
+        "month": "6",
+        "day": "10"
+      },
+      "text": {
+        "headline": "Randomized Double-Blind Placebo-Controlled Trial of Midodrine in NOH",
+        "text": "<p>Placebo-controlled study showing significant improvement in standing systolic blood pressure.</p><p><a href='../studies/study_2.html'>View full details \u2192</a></p>"
+      },
+      "group": "RCT"
+    },
+    {
+      "start_date": {
+        "year": "2019",
+        "month": "9",
+        "day": "22"
+      },
+      "text": {
+        "headline": "Long-Term Safety of Midodrine in Neurogenic Orthostatic Hypotension",
+        "text": "<p>Extended follow-up data on safety and tolerability over 24 months of treatment.</p><p><a href='../studies/study_3.html'>View full details \u2192</a></p>"
+      },
+      "group": "Open-label Follow-up"
+    },
+    {
+      "start_date": {
+        "year": "2021",
+        "month": "2",
+        "day": "14"
+      },
+      "text": {
+        "headline": "Midodrine vs Placebo in Autonomic Failure: A Comparative Study",
+        "text": "<p>Head-to-head comparison of midodrine dosing strategies in autonomic failure patients.</p><p><a href='../studies/study_4.html'>View full details \u2192</a></p>"
+      },
+      "group": "RCT"
+    },
+    {
+      "start_date": {
+        "year": "2023",
+        "month": "11",
+        "day": "5"
+      },
+      "text": {
+        "headline": "Effects of Midodrine on Cognitive Function in Orthostatic Hypotension",
+        "text": "<p>Novel assessment of cognitive outcomes in patients with orthostatic hypotension treated with midodrine.</p><p><a href='../studies/study_5.html'>View full details \u2192</a></p>"
+      },
+      "group": "RCT"
+    }
+  ]
+}

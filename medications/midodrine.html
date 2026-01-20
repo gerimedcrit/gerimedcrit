@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midodrine Timeline - Gerimedcrit</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+    <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Gerimedcrit</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../timelines.html">Medication Timelines</a></li>
+                <li><a href="../about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Midodrine Evidence Timeline</h2>
+            <p>Interactive timeline of clinical trials and key evidence for Midodrine.</p>
+            <p><strong>Total studies tracked:</strong> 5</p>
+        </section>
+
+        <section>
+            <div id='timeline-embed' style="width: 100%; height: 600px"></div>
+        </section>
+
+        <section>
+            <h3>All Studies</h3>
+            <ul>
+                <li>
+                    <strong>2015 - Efficacy and Safety of Midodrine in Patients with Orthostatic Hypotension</strong><br>
+                    Phase 3 randomized controlled trial demonstrating efficacy of midodrine for orthostatic hypotension symptoms.<br>
+                    <a href="../studies/study_1.html">View details →</a>
+                </li>
+                <li>
+                    <strong>2017 - Randomized Double-Blind Placebo-Controlled Trial of Midodrine in NOH</strong><br>
+                    Placebo-controlled study showing significant improvement in standing systolic blood pressure.<br>
+                    <a href="../studies/study_2.html">View details →</a>
+                </li>
+                <li>
+                    <strong>2019 - Long-Term Safety of Midodrine in Neurogenic Orthostatic Hypotension</strong><br>
+                    Extended follow-up data on safety and tolerability over 24 months of treatment.<br>
+                    <a href="../studies/study_3.html">View details →</a>
+                </li>
+                <li>
+                    <strong>2021 - Midodrine vs Placebo in Autonomic Failure: A Comparative Study</strong><br>
+                    Head-to-head comparison of midodrine dosing strategies in autonomic failure patients.<br>
+                    <a href="../studies/study_4.html">View details →</a>
+                </li>
+                <li>
+                    <strong>2023 - Effects of Midodrine on Cognitive Function in Orthostatic Hypotension</strong><br>
+                    Novel assessment of cognitive outcomes in patients with orthostatic hypotension treated with midodrine.<br>
+                    <a href="../studies/study_5.html">View details →</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Gerimedcrit</p>
+    </footer>
+
+    <script type="text/javascript">
+        // Load timeline data
+        fetch('../data/midodrine_timeline.json')
+            .then(response => response.json())
+            .then(data => {
+                window.timeline = new TL.Timeline('timeline-embed', data);
+            })
+            .catch(error => console.error('Error loading timeline:', error));
+    </script>
+</body>
+</html>
